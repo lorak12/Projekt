@@ -1,0 +1,31 @@
+body, p, h2, h1{
+    margin: 0;
+}
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 60px;
+}
+ul{
+    list-style: none;
+}
+li{
+    height: 30px;
+    overflow: hidden;
+    background-color: burlywood;
+    transition: all 1s ease-in-out;
+}
+li.full{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+footer{
+    /* margin: 50px 100px 10px 20px; góra, prawy, dół, lewy */
+    padding: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+li p{
+    margin: 10px;
+    padding: 5px;
+}

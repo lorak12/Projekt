@@ -1,0 +1,46 @@
+:root{
+    --link-color: white;
+}
+header, footer{
+    text-align: center;
+    background-color: red;
+    font-size: 30px;
+    padding: 50px 0;
+    transition: all 200ms ease-in-out;
+}
+header.scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+
+}
+nav > a{
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#top{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    opacity: 0;
+}
+#top.show{
+    opacity: .5;
+}
