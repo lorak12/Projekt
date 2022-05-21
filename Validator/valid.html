@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Validator</title>
+        <link rel="stylesheet" href="valid.css" />
+    </head>
+    <body>
+        <div id="form-container">
+            <h1>Rejestracja użytkownika</h1>
+            <div id="error"></div>
+            <form action="valid.html" method="post">
+                <div>
+                    <label for="login">Podaj login:</label>
+                    <input id="login" type="text" />
+                </div>
+                <div>
+                    <label for="password">Ustaw hasło:</label>
+                    <input id="password" type="password" />
+                </div>
+                <div>
+                    <label for="ndpassword">Powtórz hasło:</label>
+                    <input id="ndpassword" type="password" />
+                </div>
+                <div><input type="submit" value="Utwórz konto" /></div>
+            </form>
+        </div>
+    </body>
+    <script src="valid.js"></script>
+</html>

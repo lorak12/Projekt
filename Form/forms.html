@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formularze</title>
+        <link rel="stylesheet" href="forms.css" />
+    </head>
+
+    <body>
+        <h1>Wypełnij formularz</h1>
+        <p>Bawimy się polami formularza.</p>
+        <form action="forms.html" method="post">
+            <div>
+                <label for="poleDoImienia">Podaj imię:</label>
+                <input id="poleDoImienia" type="text" />
+            </div>
+            <div>
+                <label for="poleDoHasla">Podaj hasło:</label>
+                <input id="poleDoHasla" type="password" />
+            </div>
+            <div>
+                <label for="suwak">Wybierz wartość:</label>
+                <input
+                    type="range"
+                    id="suwak"
+                    min="0"
+                    max="10"
+                    step="2"
+                    value="4"
+                />
+            </div>
+            <div>
+                <label for="obszar">Wpisz treść:</label>
+                <textarea id="obszar"></textarea>
+                <span id="znaki"></span>
+            </div>
+            <div>
+                <input type="submit" id="submit" />
+            </div>
+        </form>
+    </body>
+    <script src="forms.js"></script>
+</html>

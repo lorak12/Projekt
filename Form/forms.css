@@ -1,0 +1,16 @@
+body {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: inherit;
+}
+
+input[type="submit"] {
+    background-color: aquamarine;
+}
